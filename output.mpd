@@ -8,7 +8,7 @@
 	minimumUpdatePeriod="PT10S"
 	suggestedPresentationDelay="PT10S"
 	availabilityStartTime="2025-04-09T14:32:00.209Z"
-	publishTime="2025-04-09T14:32:36.915Z"
+	publishTime="2025-04-09T14:35:48.309Z"
 	maxSegmentDuration="PT4.0S"
 	minBufferTime="PT20.8S">
 	<ProgramInformation>
@@ -20,7 +20,7 @@
 			<Representation id="0" mimeType="video/mp4" codecs="avc1.42c01f" bandwidth="500000" width="1280" height="720" sar="1:1">
 				<SegmentTemplate timescale="24000" initialization="init-stream$RepresentationID$.m4s" media="chunk-stream$RepresentationID$-$Number%05d$.m4s" startNumber="1">
 					<SegmentTimeline>
-						<S t="0" d="250250" r="5" />
+						<S t="0" d="250250" r="23" />
 					</SegmentTimeline>
 				</SegmentTemplate>
 			</Representation>
@@ -39,7 +39,19 @@
 						<S d="177152" />
 						<S d="177153" />
 						<S d="177151" />
-						<S d="177152" r="6" />
+						<S d="177152" r="10" />
+						<S d="177153" />
+						<S d="177151" />
+						<S d="177152" r="14" />
+						<S d="177153" />
+						<S d="177151" />
+						<S d="177152" />
+						<S d="177153" />
+						<S d="177151" />
+						<S d="177152" />
+						<S d="177153" />
+						<S d="177151" />
+						<S d="177152" r="18" />
 					</SegmentTimeline>
 				</SegmentTemplate>
 			</Representation>
